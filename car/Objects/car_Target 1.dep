@@ -1,0 +1,74 @@
+Dependencies for Project 'car', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6140000::V6.14::ARMCLANG
+F (.\user\main.c)(0x6AA272E3)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS -I ./HARDWARE-ID:/Keil_v5/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-ID:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="531" -DSTM32F10X_MD-o ./objects/main.o -MD)
+I (D:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (CMSIS\core_cm3.h)(0x61605446)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED60BE4)
+I (D:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (HARDWARE\USART.h)(0x6A7FE203)
+I (HARDWARE\TIM3.h)(0x6A7EB0DE)
+I (HARDWARE\ENCODER.h)(0x6A85D2CB)
+I (HARDWARE\I2C2.h)(0x6A9FA654)
+I (HARDWARE\MPU6050.h)(0x6A9A2D9B)
+I (HARDWARE\MOTOR.h)(0x6AA272AB)
+I (HARDWARE\PWM.h)(0x6A9B7EE5)
+I (HARDWARE\TIM1.h)(0x6AA2717B)
+F (.\CMSIS\system_stm32f10x.c)(0x61605446)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS -I ./HARDWARE-ID:/Keil_v5/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-ID:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="531" -DSTM32F10X_MD-o ./objects/system_stm32f10x.o -MD)
+I (D:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (CMSIS\core_cm3.h)(0x61605446)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED60BE4)
+I (D:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+F (.\STARTUP\startup_stm32f10x_md.s)(0x61605446)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto -c-gdwarf-3-ID:/Keil_v5/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-ID:/Keil_v5/ARM/CMSIS/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 531" -Wa,armasm,--pd,"STM32F10X_MD SETA 1"-o ./objects/startup_stm32f10x_md.o)
+F (.\HARDWARE\USART.c)(0x6A825F4A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS -I ./HARDWARE-ID:/Keil_v5/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-ID:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="531" -DSTM32F10X_MD-o ./objects/usart.o -MD)
+I (D:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (CMSIS\core_cm3.h)(0x61605446)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED60BE4)
+I (D:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+F (.\HARDWARE\USART.h)(0x6A7FE203)()
+F (.\HARDWARE\TIM3.c)(0x6A8266A0)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS -I ./HARDWARE-ID:/Keil_v5/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-ID:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="531" -DSTM32F10X_MD-o ./objects/tim3.o -MD)
+I (D:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (CMSIS\core_cm3.h)(0x61605446)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED60BE4)
+I (D:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+F (.\HARDWARE\TIM3.h)(0x6A7EB0DE)()
+F (.\HARDWARE\PWM.c)(0x6A9BC49F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS -I ./HARDWARE-ID:/Keil_v5/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-ID:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="531" -DSTM32F10X_MD-o ./objects/pwm.o -MD)
+I (D:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (CMSIS\core_cm3.h)(0x61605446)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED60BE4)
+I (D:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+F (.\HARDWARE\PWM.h)(0x6A9B7EE5)()
+F (.\HARDWARE\ENCODER.c)(0x6A8D11A0)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS -I ./HARDWARE-ID:/Keil_v5/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-ID:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="531" -DSTM32F10X_MD-o ./objects/encoder.o -MD)
+I (D:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (CMSIS\core_cm3.h)(0x61605446)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED60BE4)
+I (D:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+F (.\HARDWARE\ENCODER.h)(0x6A85D2CB)()
+F (.\HARDWARE\I2C2.c)(0x6AA20621)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS -I ./HARDWARE-ID:/Keil_v5/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-ID:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="531" -DSTM32F10X_MD-o ./objects/i2c2.o -MD)
+I (D:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (CMSIS\core_cm3.h)(0x61605446)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED60BE4)
+I (D:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (HARDWARE\I2C2.h)(0x6A9FA654)
+F (.\HARDWARE\I2C2.h)(0x6A9FA654)()
+F (.\HARDWARE\MPU6050.c)(0x6A9A2D9B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS -I ./HARDWARE-ID:/Keil_v5/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-ID:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="531" -DSTM32F10X_MD-o ./objects/mpu6050.o -MD)
+I (HARDWARE\I2C2.h)(0x6A9FA654)
+I (D:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (CMSIS\core_cm3.h)(0x61605446)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED60BE4)
+I (D:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (D:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x5ED60BE4)
+F (.\HARDWARE\MPU6050.h)(0x6A9A2D9B)()
+F (.\HARDWARE\MOTOR.c)(0x6AA272AB)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS -I ./HARDWARE-ID:/Keil_v5/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-ID:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="531" -DSTM32F10X_MD-o ./objects/motor.o -MD)
+I (D:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (CMSIS\core_cm3.h)(0x61605446)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED60BE4)
+I (D:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (HARDWARE\PWM.h)(0x6A9B7EE5)
+I (HARDWARE\TIM1.h)(0x6AA2717B)
+F (.\HARDWARE\MOTOR.h)(0x6AA272AB)()
+F (.\HARDWARE\TIM1.c)(0x6AA2717B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS -I ./HARDWARE-ID:/Keil_v5/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-ID:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="531" -DSTM32F10X_MD-o ./objects/tim1.o -MD)
+I (D:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (CMSIS\core_cm3.h)(0x61605446)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED60BE4)
+I (D:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+F (.\HARDWARE\TIM1.h)(0x6AA2717B)()

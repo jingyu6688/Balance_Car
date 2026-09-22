@@ -1,0 +1,16 @@
+--cpu Cortex-M3
+".\objects\main.o"
+".\objects\system_stm32f10x.o"
+".\objects\startup_stm32f10x_md.o"
+".\objects\usart.o"
+".\objects\tim3.o"
+".\objects\pwm.o"
+".\objects\encoder.o"
+".\objects\i2c2.o"
+".\objects\mpu6050.o"
+".\objects\motor.o"
+".\objects\tim1.o"
+--strict --scatter ".\Objects\car.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\car.map" -o .\Objects\car.axf
